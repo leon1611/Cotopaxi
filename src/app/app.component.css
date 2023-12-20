@@ -172,21 +172,17 @@ body{
   }
   .final{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     width: 90%;
     margin: 50px auto;
     background-color:rgb(157, 233, 245);
     padding: 20px;
     border: 2px solid black;
-    justify-content: space-around;
-    
-    
-      
+    justify-content: center;
+    object-fit: cover;
       .fondo{
-        grid-column: 1/4;
-       object-fit: cover;
         border-radius: 50px;
-        width: 1500px;
+        width: 2750px;
         height: 500px;
        border: 2px #000 solid;
        padding: auto;
